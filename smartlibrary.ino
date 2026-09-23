@@ -409,7 +409,7 @@ void setup() {
   Serial.println("==============================");
 
   // Web server routes
-  server.on(
+  serve.on(
     "/",
     handleHome
   );
